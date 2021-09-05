@@ -4,7 +4,7 @@ int main(void)
 {
     int i = 0;
     int sum = 0;
-    int num tmp;
+    int num, tmp;
 
     printf("整数は何個？:");
     scanf("%d", &num);
@@ -16,7 +16,7 @@ int main(void)
     }
 
     printf("合計値 : %d\n", sum);
-    printf("平均値 : %.2f\n", (duble)sum / num);
+    printf("平均値 : %.2f\n", (double)sum / num);
 
     return 0;
 }
