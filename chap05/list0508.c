@@ -21,4 +21,5 @@ int main(void)
         printf("x[%d] = %d\n", i, x[i]);
 
     return 0;
+    
 }
