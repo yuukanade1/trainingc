@@ -12,5 +12,26 @@ int main(void)
             sum[i][j] = tensu1[i][j] + tensu2[i][j];
     }
 
-    
+    puts("1回目");
+    for (i = 0; i < 4; i++) {
+        for (j = 0; j < 3; j++)
+            printf("%4d", tensu1[i][j]);
+        putchar('\n');
+    }
+
+    puts("2回目");
+    for (i = 0; i < 4; i++) {
+        for (j = 0; j < 3; j++)
+            printf("%4d", tensu2[i][j]);
+        putchar('\n');
+    }
+
+    puts("合計点");
+    for (i = 0; i < 4; i++) {
+        for (j = 0; j < 3; j++)
+            printf("%4d", sum[i][j]);
+        putchar('\n');
+    }
+
+    return 0;
 }
